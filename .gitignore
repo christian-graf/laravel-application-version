@@ -1,0 +1,82 @@
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Windows folder config file
+Desktop.ini
+
+# Windows Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
+# OSX icon must end with two \r
+Icon
+
+# OSX template
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# OSX thumbnails
+._*
+
+# OSX files that might appear in the root of a volume
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+
+# OSX directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Vagrant template
+.vagrant/
+
+# TortoiseGit Project-level settings
+/.tgitconfig
+
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion
+*.iml
+
+# Directory-based project format:
+.idea/
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Common IDE setting directories
+*.buildpath
+*.project
+*.projects
+*.setting
+*.settings
+
+# Composer
+/vendor
+/composer.lock
+
+# Local dev
+.bash_history
+.cache/
+.composer/
+.node-gyp/
+.yarn/
+.psql_history
+.yarnrc
+/build
+/test-reports

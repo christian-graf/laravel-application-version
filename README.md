@@ -1,2 +1,3 @@
-# laravel-application-version
-Fox's smarter appliction version manager :)
+# laravel Application Version
+
+Fox's smarter application version manager :)

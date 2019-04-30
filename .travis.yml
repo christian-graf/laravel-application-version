@@ -1,0 +1,31 @@
+language: php
+
+php:
+  - 7.2
+
+# faster builds on new travis setup not using super user
+sudo: false
+
+# cache vendor dirs
+cache:
+  directories:
+    - vendor
+    - $HOME/.composer/cache
+
+before_install:
+  - travis_retry composer self-update && composer --version
+  - export PATH="$HOME/.composer/vendor/bin:$PATH"
+
+install:
+  - travis_retry composer install --no-suggest --no-interaction --no-plugins --prefer-dist
+
+jobs:
+  include:
+    - stage: tests
+      script:
+        - composer -V
+        - php -v
+        - vendor/bin/phpunit --colors=never
+    - stage: verify code style
+      script:
+          - vendor/bin/php-cs-fixer fix --dry-run --config=.php_cs --using-cache=no

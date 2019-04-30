@@ -1,0 +1,39 @@
+{
+    "name": "fox/laravel-application-version",
+    "description": "Fox's smarter application version manager",
+    "keywords": ["artisan", "laravel", "application", "version"],
+    "license": "MIT",
+    "type": "library",
+    "version": "0.0.0",
+    "require": {
+        "php": "^7.2.1",
+        "illuminate/support": "^5.7",
+        "illuminate/console": "^5.7",
+        "illuminate/database": "^5.7"
+    },
+    "require-dev": {
+        "ext-mbstring": "*",
+        "friendsofphp/php-cs-fixer": "^2.14",
+        "fzaninotto/faker": "^1.8.0",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Fox\\Application\\Version\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Fox\\Application\\Version\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "style-fix": "vendor/bin/php-cs-fixer fix",
+        "style-check": "vendor/bin/php-cs-fixer fix --dry-run --using-cache=no"
+    },
+    "config": {
+        "preferred-install": "dist"
+    }
+}
