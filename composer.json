@@ -4,7 +4,7 @@
     "keywords": ["artisan", "laravel", "application", "version"],
     "license": "MIT",
     "type": "library",
-    "version": "0.0.0",
+    "version": "1.0.0",
     "require": {
         "php": "^7.2.1",
         "illuminate/contracts": "^5.7",
