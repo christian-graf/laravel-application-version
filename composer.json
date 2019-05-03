@@ -8,6 +8,7 @@
     "require": {
         "php": "^7.2.1",
         "illuminate/contracts": "^5.7",
+        "illuminate/support": "^5.7",
         "composer/composer": "^1.8",
         "symfony/process": "^4.2"
     },
@@ -36,5 +37,15 @@
     },
     "config": {
         "preferred-install": "dist"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Fox\\Application\\Version\\ServiceProvider"
+            ],
+            "aliases": {
+                "version-manager": "Fox\\Application\\Version\\VersionManager"
+            }
+        }
     }
 }
