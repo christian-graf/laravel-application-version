@@ -1,0 +1,19 @@
+{
+    "name": "tests/unit",
+    "description": "My test composer file.",
+    "keywords": ["application", "laravel", "Cyberfox", "Test"],
+    "license": "Apache-2.0",
+    "type": "project",
+    "version": "1.2.3",
+
+    "require": {
+        "php": "^7.2.1"
+    },
+    "config": {
+        "preferred-install": "dist",
+        "sort-packages": true,
+        "optimize-autoloader": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
