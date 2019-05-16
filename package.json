@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0",
+    "private": true,
+    "scripts": {
+        "release": "standard-version --sign"
+    },
+    "dependencies": {},
+    "devDependencies": {},
+    "standard-version": {
+        "skip": {
+            "commit": true,
+            "tag": true
+        }
+    }
+}
