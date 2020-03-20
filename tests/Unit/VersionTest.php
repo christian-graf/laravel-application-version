@@ -113,4 +113,15 @@ class VersionTest extends TestCase
 
         Version::create($version);
     }
+
+    /**
+     * Test.
+     */
+    public function testToString()
+    {
+        $version = new Version(2, 23, 400, 'abcd');
+
+        $this->assertEquals('2.23.400-abcd', $version->toString());
+        $this->assertEquals('2.23.400', $version->toString(true));
+    }
 }

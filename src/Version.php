@@ -32,8 +32,6 @@ class Version
     protected $build = null;
 
     /**
-     * @param string $version
-     *
      * @return static
      */
     public static function create(string $version): Version
@@ -58,11 +56,6 @@ class Version
 
     /**
      * Version constructor.
-     *
-     * @param int         $major
-     * @param int         $minor
-     * @param int         $patch
-     * @param string|null $build
      */
     public function __construct(int $major, int $minor, int $patch, ?string $build = null)
     {
@@ -72,36 +65,38 @@ class Version
         $this->build = $build;
     }
 
-    /**
-     * @return int
-     */
     public function major(): int
     {
         return $this->major;
     }
 
-    /**
-     * @return int
-     */
     public function minor(): int
     {
         return $this->minor;
     }
 
-    /**
-     * @return int
-     */
     public function patch(): int
     {
         return $this->patch;
     }
 
-    /**
-     * @return string|null
-     */
     public function build(): ?string
     {
         return $this->build;
+    }
+
+    /**
+     * @param bool $excludeBuild
+     *
+     * @return string
+     */
+    public function toString(bool $excludeBuild = false): string
+    {
+        return $this->major()
+            . '.' . $this->minor()
+            . '.' . $this->patch()
+            . (!$excludeBuild && !empty($this->build()) ? '-' . $this->build() : '')
+            ;
     }
 
     /**
@@ -109,10 +104,6 @@ class Version
      */
     public function __toString(): string
     {
-        return $this->major()
-            . '.' . $this->minor()
-            . '.' . $this->patch()
-            . (!empty($this->build()) ? '-' . $this->build() : '')
-        ;
+        return $this->toString();
     }
 }

@@ -2,14 +2,25 @@
 
 $fixers = [
   '@Symfony' => true,
-  'array_syntax' => array('syntax' => 'short'),
+  'array_syntax' => [
+    'syntax' => 'short',
+  ],
   'combine_consecutive_unsets' => true,
   'no_useless_else' => true,
   'no_useless_return' => true,
-  'ordered_imports' => ['sortAlgorithm' => 'length'],
+  'ordered_imports' => [
+    'sortAlgorithm' => 'length',
+  ],
   'phpdoc_indent' => false,
   'phpdoc_annotation_without_dot' => false,
   'phpdoc_no_empty_return' => false,
+  'phpdoc_no_alias_tag' => [
+    // 'property-read' => 'property',
+    // 'property-write' => 'property',
+    'type' => 'var',
+    'link' => 'see',
+  ],
+  'no_superfluous_phpdoc_tags' => false,
   'concat_space' => [
     'spacing' => 'one',
   ],
