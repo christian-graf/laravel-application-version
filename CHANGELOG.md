@@ -8,6 +8,11 @@ All notable changes to this project will be documented in this file. See [standa
 
 * Implement public function toString() with optional parameter to exclude the build number.
 
+## [1.1.4](https://github.com/christian-graf/laravel-application-version/compare/v1.1.3...v1.1.4) (2020-05-27)
+
+* **composer:** Update dependencies.
+    * symfony/process ^5.0 -> ^4.0|^5.0
+
 ## [1.1.3](https://github.com/christian-graf/laravel-application-version/compare/v1.1.2...v1.1.3) (2020-03-11)
 
 ### Chore
@@ -29,6 +34,7 @@ All notable changes to this project will be documented in this file. See [standa
 
 
 # [1.1.0](https://github.com/christian-graf/laravel-application-version/compare/v1.0.0...v1.1.0) (2019-05-16)
+
 
 ### Features
 
