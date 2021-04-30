@@ -1,6 +1,12 @@
-# Change Log
+# Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
+
+## [2.0.0](https://github.com/christian-graf/laravel-application-version/compare/v1.2.1...v2.0.0) (2021-04-30)
+
+### Features
+
+* Migrate the package to PHP 7.4 - BREAKING CHANGE. ([977c085](https://github.com/christian-graf/laravel-application-version/commit/977c085c428ae320c7738ff375747bad7bd73b98))
 
 ## [1.2.1](https://github.com/christian-graf/laravel-application-version/compare/v1.2.0...v1.2.1) (2020-05-27)
 
