@@ -9,27 +9,27 @@ class Version
     /**
      * @var string|null
      */
-    protected $version = null;
+    protected ?string $version = null;
 
     /**
      * @var int|null
      */
-    protected $major = null;
+    protected ?int $major = null;
 
     /**
      * @var int|null
      */
-    protected $minor = null;
+    protected ?int $minor = null;
 
     /**
      * @var int|null
      */
-    protected $patch = null;
+    protected ?int $patch = null;
 
     /**
      * @var string|null
      */
-    protected $build = null;
+    protected ?string $build = null;
 
     /**
      * @return static

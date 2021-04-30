@@ -16,17 +16,17 @@ class VersionManagerTest extends TestCase
     /**
      * @var MockObject|CacheContract
      */
-    private $cacheMock;
+    private MockObject $cacheMock;
 
     /**
      * @var MockObject|Process
      */
-    private $processMock;
+    private MockObject $processMock;
 
     /**
      * @var string
      */
-    private $composerFile;
+    private string $composerFile;
 
     /**
      * {@inheritdoc}

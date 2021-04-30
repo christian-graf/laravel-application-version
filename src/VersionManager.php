@@ -14,27 +14,27 @@ class VersionManager
     /**
      * @var CacheContract
      */
-    protected $cache;
+    protected CacheContract $cache;
 
     /**
      * @var int
      */
-    protected $cacheTTL = 0;
+    protected int $cacheTTL = 0;
 
     /**
-     * @var string
+     * @var string|null
      */
-    protected $composerFile;
+    protected ?string $composerFile = null;
 
     /**
      * @var Version|null
      */
-    protected $currentVersion = null;
+    protected ?Version $currentVersion = null;
 
     /**
      * @var Process|null
      */
-    protected $process = null;
+    protected ?Process $process = null;
 
     /**
      * VersionManager constructor.

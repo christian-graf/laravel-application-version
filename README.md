@@ -4,9 +4,9 @@ Fox's smarter application version manager :)
 
 ## Requirements
 
-* PHP >= 7.2
+* PHP >= 7.4
 * Composer >= 1.8
-* Laravel Framework >= 5.7
+* Laravel Framework >= 6.0
 
 ## Installation
 
@@ -59,13 +59,13 @@ alpha
 
 ### Version Manager
 
-You may also use the version manager to determine the current version of your application by parsing 
-the composer.json file and run git to receive the last commit id of your working directory used as 
+You may also use the version manager to determine the current version of your application by parsing
+the composer.json file and run git to receive the last commit id of your working directory used as
 additional `build` information.
 
 ```
 $versionManager = app('version-manager');
-$myVersion = $versionManager->getCurrentVersion(); 
+$myVersion = $versionManager->getCurrentVersion();
 ```
 
 ## Development - Getting Started
@@ -77,5 +77,5 @@ See the [CONTRIBUTING](CONTRIBUTING.md) file.
 See the [CHANGELOG](CHANGELOG.md) file.
 
 ## License
- 
+
 See the [LICENSE](LICENSE.md) file.
