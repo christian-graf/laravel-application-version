@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.0.1](https://github.com/christian-graf/laravel-application-version/compare/v2.0.0...v2.0.1) (2021-05-03)
+
+### Bug Fixes
+
+* **composer:** Set PHP minimum version to >=7.4.1 instead of ^7.4.1 to be able to use the package with PHP 8.0. ([d05b949](https://github.com/christian-graf/laravel-application-version/commit/d05b949a6c6110fcacc3b16345bf9f25bf8db5c6))
+
 ## [2.0.0](https://github.com/christian-graf/laravel-application-version/compare/v1.2.1...v2.0.0) (2021-04-30)
 
 ### Features
