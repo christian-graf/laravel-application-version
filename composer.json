@@ -11,7 +11,7 @@
     "type": "library",
     "version": "2.0.0",
     "require": {
-        "php": "^7.4.1",
+        "php": ">=7.4.1",
         "illuminate/contracts": "^6.0|^7.0|^8.0",
         "illuminate/support": "^6.0|^7.0|^8.0",
         "composer/composer": "^1.10",
