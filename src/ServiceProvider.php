@@ -29,5 +29,6 @@ class ServiceProvider extends BaseServiceProvider
                 $app->basePath() . DIRECTORY_SEPARATOR . 'composer.json'
             );
         });
+        $this->app->alias(VersionManager::class, 'version-manager');
     }
 }

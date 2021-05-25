@@ -80,3 +80,5 @@ atlassian-ide-plugin.xml
 .yarnrc
 /build
 /test-reports
+.php_cs.cache
+.phpunit.result.cache
