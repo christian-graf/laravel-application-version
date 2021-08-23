@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/christian-graf/laravel-application-version/compare/v2.0.2...v2.1.0) (2021-08-23)
+
+### Features
+
+* **composer:** Implement compatibility with composer v2 ;) ([a6de225](https://github.com/christian-graf/laravel-application-version/commit/a6de2256a1f409777490d7c56e9b7d805c5bdcc3))
+
 ### [2.0.2](https://github.com/christian-graf/laravel-application-version/compare/v2.0.1...v2.0.2) (2021-05-25)
 
 ### Bug Fixes
