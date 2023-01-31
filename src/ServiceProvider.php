@@ -18,6 +18,7 @@ class ServiceProvider extends BaseServiceProvider
      * {@inheritdoc}
      *
      * @return void
+     *
      * @codeCoverageIgnore
      */
     public function register()

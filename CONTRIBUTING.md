@@ -2,9 +2,9 @@
 
 ## Requirements
 
-* PHP >= 7.4
-* Composer >= 1.8
-* PHPUnit >= 8.5
+* PHP >= 8.0.2
+* Composer >= 2.0
+* PHPUnit >= 9.5
 * git cli
 
 ## Up & Running for Development

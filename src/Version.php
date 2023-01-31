@@ -96,7 +96,7 @@ class Version
             . '.' . $this->minor()
             . '.' . $this->patch()
             . (!$excludeBuild && !empty($this->build()) ? '-' . $this->build() : '')
-            ;
+        ;
     }
 
     /**

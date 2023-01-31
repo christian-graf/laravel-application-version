@@ -4,9 +4,9 @@ Fox's smarter application version manager :)
 
 ## Requirements
 
-* PHP >= 7.4
-* Composer >= 1.8
-* Laravel Framework >= 6.0
+* PHP >= 8.0.2
+* Composer >= 2.0
+* Supported Laravel Framework versions: 7.0, 8.0 and 9.0
 
 ## Installation
 
@@ -33,7 +33,7 @@ The service provider will automatically get registered. Or you may manually add 
 
 ## Usage
 
-You can use the the provided classes directly for your own purpose.
+You can use the provided classes directly for your own purpose.
 
 ### Version
 
