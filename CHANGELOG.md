@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.0.0](https://github.com/christian-graf/laravel-application-version/compare/v2.1.0...v3.0.0) (2023-01-31)
+
+### Features
+
+* Set PHP minimum version to ^8.0.2 and add support for Laravel v9. ([e5c09ea](https://github.com/christian-graf/laravel-application-version/commit/e5c09ea5f9590d9ff78bb8d9269a8bf702c8708e))
+
+**BREAKING CHANGES**
+
+* Support for PHP Versions < 8.0 are removed!
+* Support for Laravel v6 are removed!
+
 ## [2.1.0](https://github.com/christian-graf/laravel-application-version/compare/v2.0.2...v2.1.0) (2021-08-23)
 
 ### Features
