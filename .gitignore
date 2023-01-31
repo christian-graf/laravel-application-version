@@ -81,4 +81,6 @@ atlassian-ide-plugin.xml
 /build
 /test-reports
 .php_cs.cache
+.php-cs-fixer.cache
 .phpunit.result.cache
+phpunit.xml.bak
