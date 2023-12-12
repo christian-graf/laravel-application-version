@@ -2,7 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
-### [3.0.1](https://github.com/christian-graf/laravel-application-version/compare/v3.0.0...v3.0.1) (2023-01-31)
+## [3.1.0](https://github.com/christian-graf/laravel-application-version/compare/v3.0.1...v3.1.0) (2023-12-12)
+
+### Features
+
+* Add support for Laravel v10. ([dd707e6](https://github.com/christian-graf/laravel-application-version/commit/dd707e6aa54977cb63d5f86cbede1696d240acac))
+
+## [3.0.1](https://github.com/christian-graf/laravel-application-version/compare/v3.0.0...v3.0.1) (2023-01-31)
+
+### Chore
+
+* Update readme to reflect the new minimum PHP version.
 
 ## [3.0.0](https://github.com/christian-graf/laravel-application-version/compare/v2.1.0...v3.0.0) (2023-01-31)
 
@@ -21,13 +31,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 * **composer:** Implement compatibility with composer v2 ;) ([a6de225](https://github.com/christian-graf/laravel-application-version/commit/a6de2256a1f409777490d7c56e9b7d805c5bdcc3))
 
-### [2.0.2](https://github.com/christian-graf/laravel-application-version/compare/v2.0.1...v2.0.2) (2021-05-25)
+## [2.0.2](https://github.com/christian-graf/laravel-application-version/compare/v2.0.1...v2.0.2) (2021-05-25)
 
 ### Bug Fixes
 
 * **composer:** Remove facade declaration of missing facade :/ ([507fecb](https://github.com/christian-graf/laravel-application-version/commit/507fecbf9bbd10cf23edaa0ef2c4a6f26fa37917))
 
-### [2.0.1](https://github.com/christian-graf/laravel-application-version/compare/v2.0.0...v2.0.1) (2021-05-03)
+## [2.0.1](https://github.com/christian-graf/laravel-application-version/compare/v2.0.0...v2.0.1) (2021-05-03)
 
 ### Bug Fixes
 
