@@ -21,7 +21,7 @@ class ServiceProvider extends BaseServiceProvider
      *
      * @codeCoverageIgnore
      */
-    public function register()
+    public function register(): void
     {
         $this->app->singleton(VersionManager::class, function (ApplicationContract $app) {
             return new VersionManager(

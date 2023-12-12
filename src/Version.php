@@ -41,7 +41,7 @@ class Version
         }
 
         $build = null;
-        if (strpos($version, '-') !== false) {
+        if (str_contains($version, '-')) {
             list($version, $build) = array_pad(explode('-', $version), 2, null);
         }
 
@@ -56,6 +56,11 @@ class Version
 
     /**
      * Version constructor.
+     *
+     * @param int         $major
+     * @param int         $minor
+     * @param int         $patch
+     * @param string|null $build
      */
     public function __construct(int $major, int $minor, int $patch, ?string $build = null)
     {
@@ -65,21 +70,41 @@ class Version
         $this->build = $build;
     }
 
+    /**
+     * Return the major part of the version number.
+     *
+     * @return int
+     */
     public function major(): int
     {
         return $this->major;
     }
 
+    /**
+     * Return the minor part of the version number.
+     *
+     * @return int
+     */
     public function minor(): int
     {
         return $this->minor;
     }
 
+    /**
+     * Return the patch part of the version number.
+     *
+     * @return int
+     */
     public function patch(): int
     {
         return $this->patch;
     }
 
+    /**
+     * Return the build part of the version number.
+     *
+     * @return string|null
+     */
     public function build(): ?string
     {
         return $this->build;
